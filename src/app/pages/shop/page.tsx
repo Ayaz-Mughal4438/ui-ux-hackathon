@@ -13,12 +13,8 @@ const page = () => {
     <div>
       <Header />
 
-      <div className="w-full flex justify-center my-6">
-        <Image src="/assets/Images/banner5.png" alt="" />
-        {/* <Image alt='' height={} width={}> */}
-      </div>
-      <div>
-        <Image src="/assets/Images/filter.png" alt="" />
+      <div className="max-w-7xl mx-auto my-7">
+        <h1 className="text-2xl text-center font-bold">Shop</h1>
       </div>
 
       <div className="flex justify-center items-center flex-wrap gap-4 my-20">
